@@ -1,8 +1,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-.navbar-nav .active {
-    color: red !important;
+.nav-link.active {
+    color: #F66E44 !important;
   }
   .nav-link {
     color: black;
@@ -10,6 +10,57 @@ body {
   .nav-link:hover {
     color: black;
   }
-  .big-header {
-    margin-top: 8em;
+  .overline {
+    text-decoration: overline solid #F66E44 3px;
+  }
+  .gallery{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    'a b c'
+    'a b c'
+    'a e c'
+    'd e f'
+    'd e f'
+    'd e f'
+    'g e i'
+    'g h i'
+    'g h i'
+    ;
+  }
+  .serene{
+    grid-area: a;
+  }
+  .queen{
+    grid-area: b;
+  }
+  .accompany{
+    grid-area: c;
+  }
+  .exhibition-1{
+    grid-area: d;
+  }
+  .vintage{
+    grid-area: e;
+  }
+  .exhibition-2{
+    grid-area: f;
+  }
+  .exhibition-3{
+    grid-area: g;
+  }
+  .machine-man{
+    grid-area: h;
+  }
+  .process{
+    grid-area: i;
+  }
+  .gallery p{
+    color: white;
+    position: absolute;
+    text-decoration: underline solid #F66E44 3px;
+    text-underline-offset: 0.3em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
   }
