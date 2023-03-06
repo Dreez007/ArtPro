@@ -64,3 +64,13 @@ body {
     left: 50%;
     transform: translate(-50%, -50%)
   }
+  .price-card button {
+    display: none;
+  }
+  .price-card:hover {
+    border: 1px solid #8A8A8A;
+    
+  }
+  .price-card:hover button { 
+    display: block; 
+  }
