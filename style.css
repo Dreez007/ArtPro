@@ -74,3 +74,8 @@ body {
   .price-card:hover button { 
     display: block; 
   }
+  .form-control:focus {
+    border-color: transparent;
+    box-shadow: none;
+    outline: none;
+}
