@@ -55,7 +55,7 @@ body {
   .process{
     grid-area: i;
   }
-  .gallery p{
+  .gallery p, .carousel-item p{
     color: white;
     position: absolute;
     text-decoration: underline solid #F66E44 3px;
@@ -78,4 +78,19 @@ body {
     border-color: transparent;
     box-shadow: none;
     outline: none;
+}
+.carousel-section {
+  display: none;
+}
+
+@media (max-width:768px) {
+  .gallery {
+    display: none;
+  }
+  .carousel-section {
+    display: block;
+  }
+  .gallery-section button {
+    display: none;
+  }
 }
